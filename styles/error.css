@@ -1,10 +1,10 @@
 .error {
   position: absolute;
-  inset: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: #545050;
+  inset: 0;
 }
 
 .error__title {

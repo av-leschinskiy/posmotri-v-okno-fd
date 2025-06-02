@@ -1,4 +1,6 @@
 module.exports = {
+  plugins: ['stylelint-order'],
+  extends: 'stylelint-config-idiomatic-order',
   rules: {
     'color-no-invalid-hex': true,
     'value-keyword-case': ['lower', { camelCaseSvgKeywords: true }],
