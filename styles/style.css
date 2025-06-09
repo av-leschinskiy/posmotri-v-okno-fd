@@ -89,8 +89,8 @@ html {
 .content__list-container {
   position: relative;
   height: 290px;
-  overflow-y: auto;
   padding-right: 2px;
+  overflow-y: auto;
 }
 
 .content__video-card {
@@ -277,6 +277,7 @@ html {
 }
 
 .button {
+  padding: 0;
   border: 1px solid currentColor;
   background-color: transparent;
   color: #fff;
@@ -287,7 +288,6 @@ html {
   letter-spacing: 0;
   line-height: 1;
   text-align: center;
-  padding: 0;
 }
 
 .more-button {
