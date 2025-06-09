@@ -362,3 +362,7 @@ html {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
+
+.content__card-link_current {
+  background-color: #545050;
+}
